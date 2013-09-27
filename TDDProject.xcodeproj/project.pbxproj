@@ -22,6 +22,8 @@
 		6F7EC2FB17F5B80300EC2252 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7EC2DA17F5B80300EC2252 /* UIKit.framework */; };
 		6F7EC30317F5B80300EC2252 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F7EC30117F5B80300EC2252 /* InfoPlist.strings */; };
 		6F7EC30517F5B80300EC2252 /* TDDProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EC30417F5B80300EC2252 /* TDDProjectTests.m */; };
+		6F7EC30F17F5D64700EC2252 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EC30E17F5D64700EC2252 /* TopicTests.m */; };
+		6F7EC31317F5D70900EC2252 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EC31217F5D70900EC2252 /* Topic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		6F7EC30017F5B80300EC2252 /* TDDProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDProjectTests-Info.plist"; sourceTree = "<group>"; };
 		6F7EC30217F5B80300EC2252 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F7EC30417F5B80300EC2252 /* TDDProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDProjectTests.m; sourceTree = "<group>"; };
+		6F7EC30E17F5D64700EC2252 /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
+		6F7EC31117F5D70900EC2252 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		6F7EC31217F5D70900EC2252 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		6F7EC2CA17F5B80300EC2252 = {
 			isa = PBXGroup;
 			children = (
+				6F7EC31017F5D6E100EC2252 /* Classes */,
 				6F7EC2DC17F5B80300EC2252 /* TDDProject */,
 				6F7EC2FE17F5B80300EC2252 /* TDDProjectTests */,
 				6F7EC2D517F5B80300EC2252 /* Frameworks */,
@@ -142,6 +148,7 @@
 			children = (
 				6F7EC30417F5B80300EC2252 /* TDDProjectTests.m */,
 				6F7EC2FF17F5B80300EC2252 /* Supporting Files */,
+				6F7EC30E17F5D64700EC2252 /* TopicTests.m */,
 			);
 			path = TDDProjectTests;
 			sourceTree = "<group>";
@@ -153,6 +160,15 @@
 				6F7EC30117F5B80300EC2252 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F7EC31017F5D6E100EC2252 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F7EC31117F5D70900EC2252 /* Topic.h */,
+				6F7EC31217F5D70900EC2252 /* Topic.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F7EC2F017F5B80300EC2252 /* ViewController.m in Sources */,
+				6F7EC31317F5D70900EC2252 /* Topic.m in Sources */,
 				6F7EC2E717F5B80300EC2252 /* AppDelegate.m in Sources */,
 				6F7EC2E317F5B80300EC2252 /* main.m in Sources */,
 			);
@@ -264,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F7EC30517F5B80300EC2252 /* TDDProjectTests.m in Sources */,
+				6F7EC30F17F5D64700EC2252 /* TopicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
